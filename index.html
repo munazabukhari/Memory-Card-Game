@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 🔹 Start Screen -->
+    <div class="start-screen" id="start-screen">
+      <h1>Memory Card Game</h1>
+      <p>Test your memory — can you match all the pairs?</p>
+      <button id="start-btn">Start Game</button>
+    </div>
+
+    <!-- 🔹 Game Screen -->
+    <div class="game-container" id="game-container" style="display: none"></div>
+    <button id="restart-btn" style="display: none">Restart Game</button>
+    <button id="play-btn" style="display: none" onclick="showWinMessage()">
+      Play Again
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
